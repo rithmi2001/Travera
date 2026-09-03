@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="author" content="Travera">
+  <meta name="description" content="Travera — Luxury Destination Management. Curated journeys through Sri Lanka and the Maldives.">
+  <meta name="theme-color" content="#1b1c1f">
+  <meta name="color-scheme" content="light dark">
+  <title>Travera — Luxury Destination Management</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION (matches Authenticities) ═══ -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#" class="site-logo" aria-label="Travera — home">
+        <img src="assets/travera-logo.svg" alt="Travera" width="160" height="180" loading="eager">
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <a href="#about" class="nav-link">HOME</a>
+        <a href="#approach" class="nav-link">WHY TRAVERA</a>
+        <a href="#destinations" class="nav-link">DESTINATION SRI LANKA</a>
+        <a href="#inspired" class="nav-link">GET INSPIRED</a>
+      </nav>
+      <a href="#contact" class="header-cta">
+        LET'S TALK TRAVEL
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Panel -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true"></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" aria-hidden="true" inert>
+    <a href="#about">HOME</a>
+    <a href="#approach">WHY TRAVERA</a>
+    <a href="#destinations">DESTINATION SRI LANKA</a>
+    <a href="#inspired">GET INSPIRED</a>
+    <a href="#contact" class="header-cta-mobile">LET'S TALK TRAVEL →</a>
+  </nav>
+
+  <main>
+
+    <!-- ═══ HERO (matches Authenticities exactly) ═══ -->
+    <section class="hero" id="home">
+      <div class="hero-media">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="assets/hero-tea-country.jpg"
+          aria-label="Sri Lanka tea country landscape"
+        >
+          <source src="assets/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text-center">
+          <p class="hero-kicker">TRAVEL BEYOND THE ORDINARY</p>
+          <h1 class="hero-title">
+            EXPERIENCE SRI LANKA<br>WITH EMOTION
+          </h1>
+          <p class="hero-description">
+            Sri Lanka, an enigmatic land of magical vistas and diverse cultures, invites you on a journey.
+            This pearl-shaped country blends fascinating cultures with a rich colonial past and multi-ethnic roots.
+            Our island brims with treasures, adventures for adrenaline junkies, and sensorial delights that will
+            take your breath away. The people, our greatest wealth, are passionately proud of their heritage.
+            Our history, shaped by visitors, invasions, and colonisation, enriches the culture. Journey through
+            Sri Lanka to experience a warm welcome and feel truly at home.
+          </p>
+          <a href="#about" class="hero-cta">EXPLORE ALL</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ INTRO / APPROACH (matches Authenticities intro section) ═══ -->
+    <section class="intro-section" id="about">
+      <div class="container">
+        <p class="section-kicker">WHY TRAVEL WITH US</p>
+        <h2 class="section-title">
+          "TO BECOME CONSCIOUS AND AWARE,<br>WE MUST BECOME AUTHENTIC.<br>AUTHENTICITY IS THE HIGHEST FORM OF BEING"
+        </h2>
+        <p class="section-kicker sub-kicker">~ TEAL SWAN ~</p>
+      </div>
+    </section>
+
+<!-- ═══════════════════════════════════════════════════════
+     EXPERIENCE SRI LANKA
+     ═══════════════════════════════════════════════════════ -->
+
+<section class="experience-section" id="approach">
+
+    <div class="experience-container">
+
+        <!-- TOP HEADING -->
+        <div class="experience-header">
+            <p class="experience-kicker">TRAVEL BEYOND THE ORDINARY</p>
+            <h2 class="experience-heading">
+                EXPERIENCE SRI LANKA<br>
+                WITH EMOTION
+            </h2>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="experience-layout">
+
+            <!-- LEFT IMAGE -->
+            <div class="experience-image-wrap">
+                <div class="experience-image-reveal">
+                    <img src="assets/exp-honeymoon.jpg" alt="Experience Sri Lanka">
+                </div>
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="experience-content">
+                <span class="experience-dot"></span>
+
+                <div class="experience-text">
+                    <p>
+                        Sri Lanka, an enigmatic land of magical vistas and
+                        diverse cultures, invites you on a journey. This
+                        pearl-shaped country blends fascinating cultures
+                        with a rich colonial past and multi-ethnic roots.
+                    </p>
+                    <p>
+                        Our island brims with treasures, adventures for
+                        adrenaline junkies, and sensorial delights that
+                        will take your breath away. The people, our greatest
+                        wealth, are passionately proud of their heritage.
+                    </p>
+                    <p>
+                        Our history, shaped by visitors, invasions, and
+                        colonisation, enriches the culture. Journey through
+                        Sri Lanka to experience a warm welcome and feel
+                        truly at home.
+                    </p>
+                </div>
+
+                <a href="#destinations" class="experience-button">
+                    <span class="experience-arrow">→</span>
+                    <span class="experience-button-text">EXPLORE ALL</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ═══ TRAVEL YOUR WAY (auto-scrolling horizontal cards) ═══ -->
+<section class="journeys-section">
+    <div class="journeys-container">
+
+        <p class="journeys-kicker">TRAVEL, YOUR WAY</p>
+        <h2 class="journeys-heading">
+            Journeys shaped around what<br>
+            matters to you.
+        </h2>
+
+        <div class="journeys-viewport">
+            <div class="journeys-scroll" id="journeysTrack">
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1602002418082-a4443e081dd1?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">01</span>
+                        <h3 class="journey-title">Luxury Escapes</h3>
+                        <p class="journey-desc">
+                            Private journeys designed around wellness, romance,
+                            discovery and extraordinary stays.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">02</span>
+                        <h3 class="journey-title">Academic Programmes</h3>
+                        <p class="journey-desc">
+                            Immersive educational journeys created for
+                            universities, institutions and students.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">03</span>
+                        <h3 class="journey-title">Travel Partnerships</h3>
+                        <p class="journey-desc">
+                            Destination management and bespoke ground services
+                            for international travel professionals.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1544644181-1484b3fdfc62?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">04</span>
+                        <h3 class="journey-title">Wildlife Safaris</h3>
+                        <p class="journey-desc">
+                            Guided expeditions through national parks to encounter
+                            leopards, elephants and rare birdlife up close.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">05</span>
+                        <h3 class="journey-title">Culinary Trails</h3>
+                        <p class="journey-desc">
+                            Hands-on food journeys through spice gardens, tea estates
+                            and family-run kitchens across the island.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1570789210967-2cac24afeb00?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">06</span>
+                        <h3 class="journey-title">Wellness Retreats</h3>
+                        <p class="journey-desc">
+                            Ayurvedic healing, yoga and quiet coastal stays built
+                            around rest and restoration.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1580060839134-75a50201b8a4?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">07</span>
+                        <h3 class="journey-title">Cultural Heritage Tours</h3>
+                        <p class="journey-desc">
+                            Ancient cities, sacred temples and centuries-old traditions
+                            explored with local historians.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">08</span>
+                        <h3 class="journey-title">Adventure Expeditions</h3>
+                        <p class="journey-desc">
+                            Whitewater rafting, hiking and mountain treks for travellers
+                            chasing an adrenaline rush.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="#" class="journey-card" style="background-image:url('https://images.unsplash.com/photo-1590523278191-995cbcda646b?q=80&w=1200&auto=format&fit=crop')">
+                    <div class="journey-overlay"></div>
+                    <div class="journey-content">
+                        <span class="journey-number">09</span>
+                        <h3 class="journey-title">Family Journeys</h3>
+                        <p class="journey-desc">
+                            Easy-paced itineraries with something for every age, from
+                            wildlife encounters to beach days.
+                        </p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- ═══ EXPERIENCES (asymmetric image grid, hover zoom) ═══ -->
+<section class="experiences-section" id="experiences">
+    <div class="experiences-container">
+
+        <p class="experiences-kicker">CURATED BY TRAVERA</p>
+        <h2 class="experiences-heading">
+            Experiences worth travelling<br>
+            for.
+        </h2>
+
+        <div class="experiences-grid">
+
+            <a href="#" class="exp-card exp-tea">
+                <img src="assets/hero-tea-country.jpg" alt="Tea country bungalow veranda at dawn" loading="lazy" decoding="async">
+                <div class="exp-overlay"></div>
+                <div class="exp-content">
+                    <span class="exp-label">TEA COUNTRY ESCAPES</span>
+                    <span class="exp-desc">Misty mornings, private bungalows and the slow rhythm of Sri Lanka's highlands.</span>
+                </div>
+            </a>
+
+            <a href="#" class="exp-card exp-ayurveda">
+                <img src="assets/exp-ayurveda.jpg" alt="Ayurveda oils and wellness ritual items" loading="lazy" decoding="async">
+                <div class="exp-overlay"></div>
+                <div class="exp-content">
+                    <span class="exp-label">AYURVEDA &amp; WELLNESS</span>
+                    <span class="exp-desc">Ancient wisdom, restorative rituals and space to reconnect with yourself.</span>
+                </div>
+            </a>
+
+            <a href="#" class="exp-card exp-island">
+                <img src="assets/philosophy-villa.jpg" alt="Private island villa over turquoise water" loading="lazy" decoding="async">
+                <div class="exp-overlay"></div>
+                <div class="exp-content">
+                    <span class="exp-label">PRIVATE ISLAND ESCAPES</span>
+                    <span class="exp-desc">Barefoot seclusion where the horizon is the only thing on the schedule.</span>
+                </div>
+            </a>
+
+            <a href="#" class="exp-card exp-wildlife">
+                <img src="assets/exp-wildlife.jpg" alt="Leopard resting on a rock in the jungle" loading="lazy" decoding="async">
+                <div class="exp-overlay"></div>
+                <div class="exp-content">
+                    <span class="exp-label">WILDLIFE &amp; NATURE</span>
+                    <span class="exp-desc">Dawn tracking, quiet camps and the wild interior of the island.</span>
+                </div>
+            </a>
+
+            <a href="#" class="exp-card exp-honeymoon">
+                <img src="assets/exp-honeymoon.jpg" alt="Couple walking along the beach at sunset" loading="lazy" decoding="async">
+                <div class="exp-overlay"></div>
+                <div class="exp-content">
+                    <span class="exp-label">LUXURY HONEYMOONS</span>
+                    <span class="exp-desc">Two islands, unhurried days and moments made only for you.</span>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- ═══ TRAVEL INSIGHTS (blog cards — matches Authenticities) ═══ -->
+    <section class="insights-section" id="inspired">
+      <div class="container">
+        <p class="section-kicker">TRAVEL INSIGHTS</p>
+        <h2 class="insights-heading">YOUR GUIDE TO EXPLORING SRI LANKA</h2>
+      </div>
+      <div class="insights-showcase">
+        <div class="insights-image-col">
+          <a href="#" class="insights-image-link">
+            <img src="assets/journal-slow.jpg"
+              alt="Misty hill country through vintage Sri Lankan train carriage window"
+              width="1200" height="675" loading="lazy" decoding="async">
+          </a>
+        </div>
+        <div class="insights-text-col">
+          <a href="#" class="insights-article">
+            <div class="insights-article-image">
+              <img src="assets/journal-hidden.jpg"
+                alt="Sunlit courtyard of restored colonial villa with frangipani tree"
+                width="600" height="400" loading="lazy" decoding="async">
+            </div>
+            <div class="insights-article-content">
+              <span class="article-date">2025 Aug 15</span>
+              <h3 class="article-title">A THOUSAND LIGHTS FOR A THOUSAND BLESSINGS</h3>
+              <p class="article-excerpt">Moments of grace and gratitude across the island's most sacred seasons.</p>
+              <span class="article-link">MORE DETAILS</span>
+            </div>
+          </a>
+          <a href="#" class="insights-article">
+            <div class="insights-article-image">
+              <img src="assets/journal-ayurveda.jpg"
+                alt="Warm herbal oil poured from brass vessel during Ayurvedic ritual"
+                width="600" height="400" loading="lazy" decoding="async">
+            </div>
+            <div class="insights-article-content">
+              <span class="article-date">2025 Jun 09</span>
+              <h3 class="article-title">IN THE QUIET CORNERS OF THE NORTH</h3>
+              <p class="article-excerpt">Discovering the unseen landscapes and quiet communities of Sri Lanka's northern provinces.</p>
+              <span class="article-link">MORE DETAILS</span>
+            </div>
+          </a>
+          <a href="#" class="insights-article">
+            <div class="insights-article-image">
+              <img src="assets/philosophy-villa.jpg"
+                alt="Open-air villa terrace framed by linen curtains and tropical greenery"
+                width="600" height="400" loading="lazy" decoding="async">
+            </div>
+            <div class="insights-article-content">
+              <span class="article-date">2025 May 15</span>
+              <h3 class="article-title">PEKOE TRAIL WITH EXPERT LOCAL FEMALE GUIDES</h3>
+              <p class="article-excerpt">A group of female trail guides forging new paths through the island's tea country.</p>
+              <span class="article-link">MORE DETAILS</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="insights-cta-row">
+        <div class="container">
+          <a href="#contact" class="section-cta">EXPLORE ALL</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ TESTIMONIALS (marquee — matches Authenticities) ═══ -->
+    <section class="testimonials-section">
+      <div class="container narrow-container">
+        <p class="section-kicker">GALLERY</p>
+        <h2 class="testimonials-heading">TESTIMONIALS</h2>
+      </div>
+      <div class="testimonials-marquee">
+        <div class="testimonials-track">
+          <div class="testimonial-card">
+            <blockquote class="testimonial-quote">
+              "Sri Lanka is not a destination, it's an experience. The team on the ground were nothing short of amazing."
+            </blockquote>
+            <p class="testimonial-attribution">— Patricio —</p>
+          </div>
+          <div class="testimonial-card">
+            <blockquote class="testimonial-quote">
+              "Absolutely fantastic. This is the best instance of the incentive trip that we've organised. Stellar praise from customers throughout."
+            </blockquote>
+            <p class="testimonial-attribution">— FTO for Beijer Group, Sweden —</p>
+          </div>
+          <div class="testimonial-card">
+            <blockquote class="testimonial-quote">
+              "I wouldn't hesitate to recommend them over and over. In fact, I wish they were our guides for all incentive trips globally."
+            </blockquote>
+            <p class="testimonial-attribution">— Corporate Travel Director —</p>
+          </div>
+          <div class="testimonial-card">
+            <blockquote class="testimonial-quote">
+              "If you have other clients looking to head to Sri Lanka, I'd say that you'd be crazy to book with anyone else."
+            </blockquote>
+            <p class="testimonial-attribution">— International DMC Partner —</p>
+          </div>
+          <div class="testimonial-card">
+            <blockquote class="testimonial-quote">
+              "Their faces read like maps as expressive as the weathered walls around them. A moment's respite captured through an unintentional photograph."
+            </blockquote>
+            <p class="testimonial-attribution">— Jahzan Ahamed, Photographer —</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ INSTAGRAM FEED (matches Authenticities) ═══ -->
+    <section class="instagram-section">
+      <div class="container">
+        <p class="section-kicker">INSTAGRAM FEED</p>
+        <h2 class="instagram-heading">STORIES IN MOTION</h2>
+      </div>
+      <div class="instagram-grid">
+        <a href="#" class="instagram-item">
+          <img src="assets/exp-tea.jpg"
+            alt="Veranda of colonial tea planter's bungalow overlooking misty highland tea fields"
+            width="600" height="600" loading="lazy" decoding="async">
+          <div class="instagram-overlay">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1.5" fill="currentColor"/></svg>
+            <span class="instagram-play-text">Listen to the luxury of slowing down.</span>
+          </div>
+        </a>
+        <a href="#" class="instagram-item">
+          <img src="assets/exp-island.jpg"
+            alt="Overwater villa deck on private Maldivian island at dawn"
+            width="600" height="600" loading="lazy" decoding="async">
+          <div class="instagram-overlay">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1.5" fill="currentColor"/></svg>
+            <span class="instagram-play-text">And the story continues...</span>
+          </div>
+        </a>
+        <a href="#" class="instagram-item">
+          <img src="assets/exp-ayurveda.jpg"
+            alt="Ayurvedic oils, brass vessels and fresh herbs on dark stone"
+            width="600" height="600" loading="lazy" decoding="async">
+          <div class="instagram-overlay">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1.5" fill="currentColor"/></svg>
+            <span class="instagram-play-text">Moments remembered...</span>
+          </div>
+        </a>
+        <a href="#" class="instagram-item">
+          <img src="assets/dest-srilanka.jpg"
+            alt="Ancient stone temple beneath jungle-covered rock formation"
+            width="600" height="600" loading="lazy" decoding="async">
+          <div class="instagram-overlay">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="4"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="1.5" fill="currentColor"/></svg>
+            <span class="instagram-play-text">Their faces read like maps...</span>
+          </div>
+        </a>
+      </div>
+      <div class="instagram-cta-row">
+        <a href="https://instagram.com" target="_blank" class="instagram-cta">VISIT INSTAGRAM</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-image-col">
+          <img src="assets/inquiry-path.jpg"
+            alt="Lantern-lit resort pathway leading toward the ocean at dawn"
+            width="1104" height="1504" loading="lazy" decoding="async">
+        </div>
+        <div class="contact-form-col">
+          <p class="section-kicker">LET'S TALK</p>
+          <h2 class="contact-heading">TELL US WHERE YOU WANT TO GO</h2>
+          <p class="contact-intro">
+            Every Travera journey begins with a conversation.
+            Share a little about what you have in mind and our team will get in touch.
+          </p>
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-name" class="form-label">Name</label>
+                <input id="cf-name" name="name" type="text" maxlength="120"
+                  placeholder="Your full name" required autocomplete="name" enterkeyhint="next">
+              </div>
+              <div class="form-field">
+                <label for="cf-email" class="form-label">Email</label>
+                <input id="cf-email" name="email" type="email" maxlength="255"
+                  placeholder="you@email.com" required autocomplete="email" inputmode="email" enterkeyhint="next">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-country" class="form-label">Country</label>
+                <input id="cf-country" name="country" type="text" maxlength="120"
+                  placeholder="Where you're travelling from">
+              </div>
+              <div class="form-field">
+                <label for="cf-destination" class="form-label">Destination</label>
+                <select id="cf-destination" name="destination">
+                  <option value="" disabled selected>Select</option>
+                  <option value="Sri Lanka">Sri Lanka</option>
+                  <option value="Maldives">Maldives</option>
+                  <option value="Sri Lanka + Maldives">Sri Lanka + Maldives</option>
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-dates" class="form-label">Travel Dates</label>
+                <input id="cf-dates" name="travelDates" type="text" maxlength="180"
+                  placeholder="e.g. March 2027, or flexible">
+              </div>
+              <div class="form-field">
+                <label for="cf-travellers" class="form-label">Travellers</label>
+                <input id="cf-travellers" name="travellers" type="text" maxlength="60"
+                  placeholder="e.g. 2 adults">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-journey" class="form-label">Journey Type</label>
+                <select id="cf-journey" name="journeyType">
+                  <option value="" disabled selected>Select</option>
+                  <option value="Luxury Escape">Luxury Escape</option>
+                  <option value="Honeymoon">Honeymoon</option>
+                  <option value="Wellness Retreat">Wellness Retreat</option>
+                  <option value="Family Journey">Family Journey</option>
+                  <option value="Cultural Journey">Cultural Journey</option>
+                  <option value="Adventure">Adventure</option>
+                  <option value="Academic Programme">Academic Programme</option>
+                  <option value="Travel Partnership">Travel Partnership</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="cf-budget" class="form-label">Budget</label>
+                <select id="cf-budget" name="budget">
+                  <option value="" disabled selected>Select</option>
+                  <option value="Under USD 2,500">Under USD 2,500</option>
+                  <option value="USD 2,500 – 5,000">USD 2,500 – 5,000</option>
+                  <option value="USD 5,000 – 10,000">USD 5,000 – 10,000</option>
+                  <option value="USD 10,000+">USD 10,000+</option>
+                  <option value="Let's discuss">Let's discuss</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="cf-message" class="form-label">Message</label>
+              <textarea id="cf-message" name="message" rows="4" maxlength="4000"
+                placeholder="Tell us a little about the journey you have in mind..."></textarea>
+            </div>
+            <button type="submit" class="form-submit-btn" id="cf-submit">
+              SEND INQUIRY
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <p class="form-note">
+              No packages. No pressure. Just a conversation about where you might want to go.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">QUICK LINKS</h4>
+          <ul class="footer-list">
+            <li><a href="#home" class="footer-link">HOME</a></li>
+            <li><a href="#about" class="footer-link">WHY TRAVERA</a></li>
+            <li><a href="#destinations" class="footer-link">DESTINATION SRI LANKA</a></li>
+            <li><a href="#contact" class="footer-link">CONTACT US</a></li>
+          </ul>
+        </div>
+        <!-- Why Travera -->
+        <div class="footer-col">
+          <h4 class="footer-heading">WHY TRAVERA</h4>
+          <ul class="footer-list">
+            <li><a href="#approach" class="footer-link">OUR APPROACH</a></li>
+            <li><a href="#philanthropy" class="footer-link">PHILANTHROPY</a></li>
+            <li><a href="#conscious" class="footer-link">CONSCIOUS TRAVEL</a></li>
+            <li><a href="#inspired" class="footer-link">GET INSPIRED</a></li>
+          </ul>
+        </div>
+        <!-- Destinations -->
+        <div class="footer-col">
+          <h4 class="footer-heading">DESTINATIONS</h4>
+          <ul class="footer-list">
+            <li><a href="#" class="footer-link">COLOMBO</a></li>
+            <li><a href="#" class="footer-link">KANDY</a></li>
+            <li><a href="#" class="footer-link">GALLE</a></li>
+            <li><a href="#" class="footer-link">THE MALDIVES</a></li>
+          </ul>
+        </div>
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4 class="footer-heading">CONTACT</h4>
+          <ul class="footer-list">
+            <li><a href="mailto:ranuka.kariyawasam@gmail.com" class="footer-link">ranuka.kariyawasam@gmail.com</a></li>
+            <li><a href="#" class="footer-link">WHAT'S APP</a></li>
+            <li><a href="#" class="footer-link">INSTAGRAM</a></li>
+            <li><a href="#" class="footer-link">LINKED IN</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <p class="footer-copy">© 2026 TRAVERA. ALL RIGHTS RESERVED.</p>
+        <a href="#" class="footer-legal">PRIVACY POLICY</a>
+      </div>
+    </div>
+    <div class="footer-brand-line">
+      <img src="assets/travera-logo.svg" alt="Travera" width="120" height="135" loading="lazy" decoding="async" style="height:2rem;width:auto">
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

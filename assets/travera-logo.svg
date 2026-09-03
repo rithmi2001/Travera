@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 180" width="600" height="180">
+  <style>
+    .brand {
+      font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+      font-weight: 400;
+      fill: #0d5c5e;
+      text-anchor: middle;
+    }
+    .tagline {
+      font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 400;
+      fill: #0d5c5e;
+      text-anchor: middle;
+      letter-spacing: 0.32em;
+    }
+  </style>
+  <text x="300" y="90" font-size="62" class="brand">TRAVERA</text>
+  <text x="300" y="132" font-size="12" class="tagline">LUXURY DESTINATION MANAGEMENT</text>
+</svg>
