@@ -523,12 +523,408 @@ textarea{resize:vertical;min-height:100px}
     }
 }
 
-/* footer */
-.footer{background:#0f2830;color:rgba(255,255,255,.65);padding:56px 0 0;font-size:13px}
-.fg{display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));padding-bottom:36px}
-.footer h4{color:#fff;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
-.footer li{margin-bottom:8px}.footer a:hover{color:var(--teal)}
-.fb{border-top:1px solid rgba(255,255,255,.08);padding:18px 0;font-size:11px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+/* =========================================================
+   TRAVERA WORLD — PREMIUM FOOTER
+   ========================================================= */
 
-@media(max-width:640px){.sec{padding:68px 0}.art img{width:100px}.art>div{padding:12px 14px}}
-@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv,.hero-in>*{opacity:1;transform:none}.rv-img{clip-path:none}.em video{display:none}}
+.footer{
+  background:#0f2830;
+  color:rgba(255,255,255,.62);
+  padding:72px 0 0;
+  font-size:13px;
+  position:relative;
+  overflow:hidden;
+}
+
+
+/* subtle luxury glow */
+
+.footer::before{
+  content:"";
+  position:absolute;
+  width:420px;
+  height:420px;
+  top:-260px;
+  right:-160px;
+  border-radius:50%;
+  background:rgba(190,155,90,.07);
+  pointer-events:none;
+}
+
+.footer::after{
+  content:"";
+  position:absolute;
+  width:280px;
+  height:280px;
+  bottom:-180px;
+  left:-120px;
+  border-radius:50%;
+  background:rgba(255,255,255,.025);
+  pointer-events:none;
+}
+
+
+/* =========================================================
+   MAIN FOOTER
+   ========================================================= */
+
+.footer-main{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.25fr;
+  gap:60px;
+  padding-bottom:65px;
+  position:relative;
+  z-index:1;
+}
+
+
+/* =========================================================
+   BRAND
+   ========================================================= */
+
+.footer-brand{
+  max-width:360px;
+}
+
+.footer-logo{
+  display:inline-flex;
+  align-items:center;
+  margin-bottom:22px;
+}
+
+.footer-logo img{
+  width:190px;
+  height:auto;
+  display:block;
+  object-fit:contain;
+}
+
+
+.footer-tagline{
+  color:#c9a96a;
+  font-family:Georgia,serif;
+  font-size:17px;
+  font-style:italic;
+  line-height:1.5;
+  margin:0 0 14px;
+}
+
+
+.footer-description{
+  color:rgba(255,255,255,.58);
+  line-height:1.8;
+  max-width:340px;
+  margin:0 0 25px;
+}
+
+
+/* =========================================================
+   CTA
+   ========================================================= */
+
+.footer-cta{
+  display:inline-flex;
+  align-items:center;
+  gap:14px;
+
+  color:#fff;
+  border-bottom:1px solid rgba(201,169,106,.65);
+
+  padding:0 0 7px;
+
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+
+  transition:
+    color .3s ease,
+    border-color .3s ease,
+    gap .3s ease;
+}
+
+.footer-cta span{
+  font-size:17px;
+  line-height:1;
+  transition:transform .3s ease;
+}
+
+.footer-cta:hover{
+  color:#c9a96a;
+  border-color:#c9a96a;
+  gap:18px;
+}
+
+.footer-cta:hover span{
+  transform:translateX(3px);
+}
+
+
+/* =========================================================
+   FOOTER COLUMNS
+   ========================================================= */
+
+.footer-column h4{
+  color:#fff;
+  font-size:10px;
+  font-weight:600;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  margin:5px 0 20px;
+  position:relative;
+}
+
+
+/* small gold line */
+
+.footer-column h4::after{
+  content:"";
+  display:block;
+  width:24px;
+  height:1px;
+  background:#c9a96a;
+  margin-top:10px;
+}
+
+
+.footer-column ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+
+.footer-column li{
+  margin-bottom:12px;
+}
+
+
+.footer-column a{
+  color:rgba(255,255,255,.58);
+  text-decoration:none;
+  transition:
+    color .25s ease,
+    padding-left .25s ease;
+}
+
+
+.footer-column li a:hover{
+  color:#c9a96a;
+  padding-left:4px;
+}
+
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+.footer-email{
+  display:inline-block;
+  color:#fff !important;
+  font-size:13px;
+  margin-bottom:15px;
+  border-bottom:1px solid rgba(255,255,255,.15);
+  padding-bottom:5px;
+}
+
+
+.footer-email:hover{
+  color:#c9a96a !important;
+  border-color:#c9a96a;
+  padding-left:0 !important;
+}
+
+
+.footer-small{
+  color:rgba(255,255,255,.45);
+  line-height:1.7;
+  margin:0 0 22px;
+}
+
+
+/* =========================================================
+   SOCIAL LINKS
+   ========================================================= */
+
+.footer-social{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-top:8px;
+}
+
+.footer-social a{
+  width:38px;
+  height:38px;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:50%;
+
+  color:rgba(255,255,255,.7);
+
+  font-size:15px;
+
+  text-decoration:none;
+
+  transition:
+    color .3s ease,
+    background .3s ease,
+    border-color .3s ease,
+    transform .3s ease;
+}
+
+.footer-social a:hover{
+  color:#0f2830;
+  background:#c9a96a;
+  border-color:#c9a96a;
+  transform:translateY(-3px);
+
+  padding-left:0 !important;
+}
+
+
+/* =========================================================
+   BOTTOM BAR
+   ========================================================= */
+
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.09);
+  position:relative;
+  z-index:1;
+}
+
+
+.footer-bottom-inner{
+  min-height:68px;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  gap:20px;
+  flex-wrap:wrap;
+
+  font-size:10px;
+  letter-spacing:.03em;
+}
+
+
+.footer-bottom-links{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+
+.footer-bottom a{
+  color:rgba(255,255,255,.5);
+  text-decoration:none;
+  transition:color .25s ease;
+}
+
+
+.footer-bottom a:hover{
+  color:#c9a96a;
+}
+
+
+.footer-bottom-links span{
+  color:rgba(255,255,255,.2);
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media(max-width:900px){
+
+  .footer-main{
+    grid-template-columns:1.5fr 1fr 1fr;
+    gap:45px 35px;
+  }
+
+  .footer-brand{
+    grid-column:1 / -1;
+    max-width:600px;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media(max-width:640px){
+
+  .footer{
+    padding-top:55px;
+  }
+
+  .footer-main{
+    grid-template-columns:1fr 1fr;
+    gap:42px 28px;
+    padding-bottom:45px;
+  }
+
+  .footer-brand{
+    grid-column:1 / -1;
+  }
+
+  .footer-logo img{
+    width:170px;
+  }
+
+  .footer-tagline{
+    font-size:16px;
+  }
+
+  .footer-description{
+    font-size:13px;
+    line-height:1.75;
+  }
+
+  .footer-column h4{
+    margin-bottom:17px;
+  }
+
+  .footer-column li{
+    margin-bottom:10px;
+  }
+
+  .footer-bottom-inner{
+    min-height:auto;
+    padding:20px 0;
+    align-items:flex-start;
+    flex-direction:column;
+    gap:10px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media(max-width:400px){
+
+  .footer-main{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .footer-brand{
+    grid-column:auto;
+  }
+
+  .footer-logo img{
+    width:155px;
+  }
+
+}
